@@ -1,0 +1,15 @@
+!jest.config.js
+*.d.ts
+node_modules
+test
+package-lock.json
+bin/*.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+.vscode
+apollo-lambda-websocket.iml
+.idea
+.aws-sam
+*.zip
